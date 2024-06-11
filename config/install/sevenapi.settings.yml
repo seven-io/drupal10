@@ -1,0 +1,15 @@
+general:
+  apiKey: null
+sms:
+  delay: null
+  flash: false
+  foreign_id: null
+  from: null
+  label: null
+  performance_tracking: false
+  signature: null
+  signaturePosition: append
+  text: null
+  to: null
+  ttl: null
+  udh: null

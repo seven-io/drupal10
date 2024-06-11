@@ -1,0 +1,31 @@
+entity.sevenapi_message.list:
+  defaults:
+    _entity_list: sevenapi_message
+    _title: Messages
+  path: /admin/sevenapi/messages
+  requirements:
+    _permission: administer messages
+
+entity.sevenapi_message.add_form:
+  defaults:
+    _entity_form: sevenapi_message.add
+    _title: Add Message
+  path: /admin/sevenapi/messages/add
+  requirements:
+    _entity_create_access: sevenapi_message
+
+entity.sevenapi_message.delete_form:
+  defaults:
+    _entity_form: sevenapi_message.delete
+    _title: Delete Message
+  path: /admin/sevenapi/messages/manage/{sevenapi_message}/delete
+  requirements:
+    _entity_access: sevenapi_message.delete
+
+sevenapi.admin_config:
+  defaults:
+    _form: \Drupal\sevenapi\Form\AdminConfigForm
+    _title: seven.io API Config
+  path: /admin/config/sevenapi
+  requirements:
+    _permission: administer site configuration

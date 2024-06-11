@@ -1,0 +1,14 @@
+{
+  "name": "seven.io/drupal10",
+  "description": "Drupal 10 module to send SMS via seven.io",
+  "type": "drupal-module",
+  "support": {
+    "issues": "https://github.com/seven-io/drupal10/issues",
+    "source": "https://github.com/seven-io/drupal10"
+  },
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "seven.io/api": "v5.0.0",
+    "ext-json": "*"
+  }
+}

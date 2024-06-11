@@ -1,0 +1,11 @@
+sevenapi.add_action:
+  appears_on:
+    - entity.sevenapi_message.list
+  route_name: entity.sevenapi_message.add_form
+  title: Add Message
+
+sevenapi.list_action:
+  appears_on:
+    - entity.sevenapi_message.add_form
+  route_name: entity.sevenapi_message.list
+  title: List Messages

@@ -1,0 +1,6 @@
+configure: sevenapi.admin_config
+core_version_requirement: ^10
+description: Send SMS via seven.io
+name: seven.io API
+package: Web services
+type: module
