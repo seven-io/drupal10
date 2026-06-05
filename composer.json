@@ -8,7 +8,7 @@
   },
   "license": "GPL-2.0-or-later",
   "require": {
-    "seven.io/api": "v5.0.0",
+    "seven.io/api": "v8.1.1",
     "ext-json": "*"
   }
 }
